@@ -1,0 +1,7 @@
+type: AccessRoleBinding
+name: developer-debby-accessrolebinding
+subjects: # a list of subjects that will be assigned roles
+- type: User # type of the subject. Available values: ("User", "Group")
+  name: developer-debby # name of the subject.
+roles: # a list of roles that will be assigned to the list of subjects.
+- developer-debby-accessrole
